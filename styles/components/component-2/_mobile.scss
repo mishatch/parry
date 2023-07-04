@@ -1,0 +1,48 @@
+.component-2 {
+  width: 100%;
+  height: 212px;
+  background-color: $header-bg;
+  padding: 46px 7.45% 0 7.45%;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  h1:first-child {
+    font-size: 25px;
+    color: $txt-white;
+    margin-left: -4px;
+  }
+  h1:last-of-type {
+    font-size: 30px;
+    color: $txt-white;
+    margin-top: -4px;
+    margin-left: -8px;
+    letter-spacing: -0.9px;
+  }
+  p {
+    font-size: 8.9px;
+    color: $txt-white;
+    margin-left: -1px;
+    margin-top: 2px;
+  }
+  div {
+    width: 64px;
+    height: 19px;
+    padding: 2px;
+    background-color: $main-blue;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  button {
+    border: 1px solid white;
+    color: $txt-white;
+    font-size: 7px;
+    background-color: $main-blue;
+    width: 63px;
+    height: 16px;
+  }
+}

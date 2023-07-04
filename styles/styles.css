@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.raleway-extralight {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+}
+
+.raleway-light {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.raleway-semibold {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.raleway-semibold-ita {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.component-1 {
+  width: 100%;
+  height: 67px;
+  background-color: #000000;
+  padding-top: 15px;
+  padding-left: 6.25%;
+  padding-right: 6.25%;
+  justify-content: space-between;
+}
+.component-1 .logo {
+  width: 95px;
+  flex-shrink: 0;
+}
+.component-1 .menu {
+  margin-top: 2px;
+}
+.component-1 .menu:hover {
+  cursor: pointer;
+}
+.component-1 .nav-links {
+  display: none;
+}
+
+.component-2 {
+  width: 100%;
+  height: 212px;
+  background-color: #292929;
+  padding: 46px 7.45% 0 7.45%;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.component-2 h1:first-child {
+  font-size: 25px;
+  color: #ffffff;
+  margin-left: -4px;
+}
+.component-2 h1:last-of-type {
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: -4px;
+  margin-left: -8px;
+  letter-spacing: -0.9px;
+}
+.component-2 p {
+  font-size: 8.9px;
+  color: #ffffff;
+  margin-left: -1px;
+  margin-top: 2px;
+}
+.component-2 div {
+  width: 64px;
+  height: 19px;
+  padding: 2px;
+  background-color: #3ab6b2;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.component-2 div:hover {
+  cursor: pointer;
+}
+.component-2 button {
+  border: 1px solid white;
+  color: #ffffff;
+  font-size: 7px;
+  background-color: #3ab6b2;
+  width: 63px;
+  height: 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */
