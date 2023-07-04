@@ -44,6 +44,11 @@
   font-weight: 700;
 }
 
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
 .component-1 {
   width: 100%;
   height: 67px;
@@ -114,6 +119,94 @@
   background-color: #3ab6b2;
   width: 63px;
   height: 16px;
+}
+.component-2 button:hover {
+  cursor: pointer;
+}
+
+.component-3 {
+  padding: 37px 6.25% 0 6.25%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.component-3 h2 {
+  font-size: 27px;
+  color: #3ab6b2;
+}
+.component-3 h2 span {
+  color: #000000;
+}
+.component-3 > div:first-of-type {
+  margin-top: 18px;
+  gap: 11px;
+}
+.component-3 > div:first-of-type > div {
+  width: 33px;
+  height: 1px;
+  background-color: #d3d3d3;
+}
+.component-3 > div:first-of-type > div:first-of-type {
+  margin-left: 2px;
+}
+.component-3 > div:first-of-type > img {
+  margin-top: -9px;
+}
+.component-3 > div:nth-of-type(2) {
+  background-color: #000000;
+  width: 100%;
+  height: 207px;
+  margin-top: 36px;
+}
+.component-3 h5 {
+  font-size: 16px;
+  text-align: left;
+  width: 100%;
+  letter-spacing: -0.35px;
+  margin-top: 17px;
+  margin-bottom: 12px;
+}
+.component-3 > div:nth-of-type(3) {
+  width: 100%;
+  height: 1px;
+  background-color: #e6e6e6;
+  margin-bottom: 11px;
+}
+.component-3 > p {
+  font-size: 13px;
+  line-height: 23px;
+  color: #525252;
+  margin-bottom: 33px;
+  margin-right: auto;
+}
+.component-3 .check {
+  margin-bottom: 19px;
+  margin-right: auto;
+}
+.component-3 .check > img {
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+  margin-right: 15px;
+}
+.component-3 .check > p {
+  font-size: 13px;
+  color: #525252;
+  line-height: 23px;
+}
+.component-3 button {
+  width: 138px;
+  height: 42px;
+  border: none;
+  color: #ffffff;
+  background-color: #3ab6b2;
+  margin-right: auto;
+  margin-top: 22px;
+  margin-bottom: 42px;
+}
+.component-3 button:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */

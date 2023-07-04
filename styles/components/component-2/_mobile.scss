@@ -44,5 +44,8 @@
     background-color: $main-blue;
     width: 63px;
     height: 16px;
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
