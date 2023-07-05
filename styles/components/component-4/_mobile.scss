@@ -1,0 +1,115 @@
+$main-width: 118px;
+$main-height: 70px;
+$inner-width: $main-width - 10px;
+$inner-height: $main-height - 10px;
+$border-width: 1px;
+.component-4 {
+  padding: 36px 6.25% 0 6.25%;
+  background-color: $main-black;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font-size: 27px;
+    color: $txt-white;
+    margin-bottom: 9px;
+  }
+  > div:first-of-type {
+    gap: 10px;
+    margin-bottom: 89px;
+    > div {
+      width: 37px;
+      height: 1px;
+      background-color: $speaker-div-color;
+      margin-top: 9px;
+    }
+  }
+  .services {
+    flex-direction: column;
+    align-items: center;
+    > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 79px;
+
+      h3 {
+        color: $main-blue;
+        font-size: 19px;
+        margin-bottom: 13px;
+      }
+      p {
+        color: $txt-white;
+        font-size: 13px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        line-height: 20px;
+      }
+      #visitors-paragraph {
+        margin-top: 2px;
+      }
+      #visitors-heading {
+        letter-spacing: 0.3px;
+      }
+      #sales-heading {
+        letter-spacing: 0.4px;
+      }
+      #sales-paragraph {
+        line-height: 23px;
+      }
+    }
+    > div:last-of-type {
+      margin-bottom: 35px;
+    }
+    .hexagon {
+      width: 118px;
+      height: 70px;
+      background-color: $main-black;
+      position: relative;
+      margin-bottom: 74px;
+      &:hover::before {
+        border-bottom-color: $main-blue;
+        transition: 0.3s;
+        cursor: pointer;
+      }
+      &:hover::after {
+        border-top-color: $main-blue;
+        transition: 0.3s;
+        cursor: pointer;
+      }
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 0;
+        border-left: 59px solid transparent;
+        border-right: 59px solid transparent;
+      }
+      &::before {
+        bottom: 100%;
+        border-bottom: 35px solid $main-black;
+      }
+      &::after {
+        top: 100%;
+        width: 0;
+        border-top: 35px solid $main-black;
+      }
+
+      > img:first-of-type {
+        z-index: 1;
+        position: absolute;
+        top: -35px;
+      }
+      &:hover {
+        background-color: $main-blue;
+        transition: 0.3s;
+        cursor: pointer;
+      }
+    }
+    .graph {
+      position: absolute;
+      top: 22px;
+      left: 47px;
+    }
+  }
+}

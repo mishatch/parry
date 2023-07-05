@@ -209,4 +209,112 @@
   cursor: pointer;
 }
 
+.component-4 {
+  padding: 36px 6.25% 0 6.25%;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+.component-4 h2 {
+  font-size: 27px;
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+.component-4 > div:first-of-type {
+  gap: 10px;
+  margin-bottom: 89px;
+}
+.component-4 > div:first-of-type > div {
+  width: 37px;
+  height: 1px;
+  background-color: #d3d3d3;
+  margin-top: 9px;
+}
+.component-4 .services {
+  flex-direction: column;
+  align-items: center;
+}
+.component-4 .services > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 79px;
+}
+.component-4 .services > div h3 {
+  color: #3ab6b2;
+  font-size: 19px;
+  margin-bottom: 13px;
+}
+.component-4 .services > div p {
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  line-height: 20px;
+}
+.component-4 .services > div #visitors-paragraph {
+  margin-top: 2px;
+}
+.component-4 .services > div #visitors-heading {
+  letter-spacing: 0.3px;
+}
+.component-4 .services > div #sales-heading {
+  letter-spacing: 0.4px;
+}
+.component-4 .services > div #sales-paragraph {
+  line-height: 23px;
+}
+.component-4 .services > div:last-of-type {
+  margin-bottom: 35px;
+}
+.component-4 .services .hexagon {
+  width: 118px;
+  height: 70px;
+  background-color: #000000;
+  position: relative;
+  margin-bottom: 74px;
+}
+.component-4 .services .hexagon:hover::before {
+  border-bottom-color: #3ab6b2;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.component-4 .services .hexagon:hover::after {
+  border-top-color: #3ab6b2;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.component-4 .services .hexagon::before, .component-4 .services .hexagon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  border-left: 59px solid transparent;
+  border-right: 59px solid transparent;
+}
+.component-4 .services .hexagon::before {
+  bottom: 100%;
+  border-bottom: 35px solid #000000;
+}
+.component-4 .services .hexagon::after {
+  top: 100%;
+  width: 0;
+  border-top: 35px solid #000000;
+}
+.component-4 .services .hexagon > img:first-of-type {
+  z-index: 1;
+  position: absolute;
+  top: -35px;
+}
+.component-4 .services .hexagon:hover {
+  background-color: #3ab6b2;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.component-4 .services .graph {
+  position: absolute;
+  top: 22px;
+  left: 47px;
+}
+
 /*# sourceMappingURL=styles.css.map */
