@@ -24,6 +24,12 @@
     margin-left: -1px;
     margin-top: 2px;
   }
+  > p:first-of-type {
+    display: block;
+  }
+  > p:last-of-type {
+    display: none;
+  }
   div {
     width: 64px;
     height: 19px;

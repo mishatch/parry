@@ -1,0 +1,44 @@
+@media screen and (min-width: $tablet) {
+  .component-3 {
+    padding: 74px 3.25% 0 3.25%;
+    > h2 {
+      font-size: 29px;
+    }
+    > div:first-of-type {
+      margin-left: -6px;
+      > div:last-child {
+        margin-top: 0;
+      }
+    }
+    > div:nth-of-type(2) {
+      margin-top: 59px;
+      height: 420px;
+    }
+    h5 {
+      font-size: 25px;
+      margin-left: -6px;
+      margin-top: 29px;
+      margin-bottom: 17px;
+    }
+    > p:nth-of-type(1) {
+      display: none;
+    }
+    > p:nth-of-type(2) {
+      display: block;
+      margin-top: 6px;
+      margin-bottom: 37px;
+    }
+    .check {
+      width: 83%;
+      p:first-of-type {
+        display: none;
+      }
+      p:last-of-type {
+        display: block;
+      }
+    }
+    button {
+      margin-bottom: 76px;
+    }
+  }
+}

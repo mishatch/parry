@@ -1,0 +1,31 @@
+@media screen and (min-width: $tablet) {
+  .component-4 {
+    padding-top: 71px;
+    > h2 {
+      font-size: 29px;
+      margin-bottom: 12px;
+    }
+    > div:nth-of-type(1) {
+      gap: 6px;
+      margin-bottom: 98px;
+    }
+    .services {
+      > div {
+        h3 {
+          font-size: 20px;
+
+          margin-top: 5px;
+        }
+        p {
+          width: 44%;
+          font-size: 14px;
+          line-height: 22px;
+          margin-bottom: 32px;
+        }
+        #sales-paragraph {
+          margin-bottom: 36px;
+        }
+      }
+    }
+  }
+}
