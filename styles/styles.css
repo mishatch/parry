@@ -8,6 +8,10 @@
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .raleway-extralight {
   font-family: "Raleway", sans-serif;
   font-weight: 200;
@@ -315,6 +319,88 @@
   position: absolute;
   top: 22px;
   left: 47px;
+}
+
+.component-5 {
+  flex-direction: column;
+  align-items: center;
+  padding: 38px 6.25% 0 6.25%;
+}
+.component-5 h3 {
+  font-size: 27px;
+  color: #323232;
+}
+.component-5 > div:first-of-type {
+  margin-left: -4px;
+  margin-top: 9px;
+  gap: 8px;
+  margin-bottom: 35px;
+}
+.component-5 > div:first-of-type > div {
+  width: 33px;
+  height: 1px;
+  background-color: #d3d3d3;
+  margin-top: 9px;
+}
+.component-5 .photography {
+  width: 100%;
+  grid-template-columns: 1fr;
+  gap: 7px;
+  grid-template-rows: repeat(4, 163px);
+}
+.component-5 .photography > div {
+  background-color: #000000;
+}
+.component-5 .photography > div:hover #photography-hidden {
+  display: flex;
+  cursor: pointer;
+}
+.component-5 .photography > div > div {
+  width: 100%;
+  height: 100%;
+  background-color: #666666;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  display: none;
+}
+.component-5 .photography > div > div > div:last-child {
+  width: 100%;
+  height: 54px;
+  background-color: #000000;
+}
+.component-5 .photography > div > div .photography-icons {
+  gap: 6.4px;
+  margin-top: 43px;
+}
+.component-5 .photography > div > div .photography-icons > div {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #3ab6b2;
+  background-color: #3ab6b2;
+}
+.component-5 .photography > div > div .photography-icons > div:hover {
+  background-color: #666666;
+  transition: 0.4s;
+}
+.component-5 .photography > div > div .photography-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.component-5 .photography > div > div .photography-txt > h6 {
+  color: #ffffff;
+  font-size: 14px;
+}
+.component-5 .photography > div > div .photography-txt > p {
+  font-size: 11px;
+  color: #3ab6b2;
+  margin-top: 3px;
 }
 
 /*# sourceMappingURL=styles.css.map */
