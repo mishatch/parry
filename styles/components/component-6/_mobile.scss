@@ -1,0 +1,70 @@
+.component-6 {
+  padding: 45px 6.25% 0 6.25%;
+  flex-direction: column;
+  align-items: center;
+  > h3 {
+    font-size: 27px;
+  }
+  > div:first-of-type {
+    margin-top: 11px;
+    gap: 8px;
+    margin-bottom: 44px;
+    > div {
+      width: 33px;
+      height: 1px;
+      background-color: $speaker-div-color;
+      margin-top: 7px;
+    }
+  }
+  > img:first-of-type {
+    margin-bottom: 16px;
+  }
+  > p {
+    margin-top: 6px;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    color: $contact-txt;
+  }
+  > img:nth-of-type(2) {
+    margin-top: 40px;
+    margin-bottom: 23px;
+  }
+  > img:nth-of-type(3) {
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+  form {
+    margin-top: 41px;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    > input {
+      border: 1px solid $input-border;
+      height: 46px;
+      color: $input-txt;
+      font-size: 14px;
+      padding-bottom: 3px;
+      padding-left: 9px;
+    }
+    > input:nth-of-type(4) {
+      height: 141px;
+      padding-bottom: 100px;
+    }
+    > input:last-of-type {
+      width: 160px;
+      height: 42px;
+      font-size: 13px;
+      margin-top: 2px;
+      margin-bottom: 44px;
+      color: $txt-white;
+      border: none;
+      background-color: $main-blue;
+      padding-top: 5px;
+      padding-left: 0;
+      padding-right: 3px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

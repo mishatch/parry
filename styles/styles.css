@@ -403,4 +403,111 @@
   margin-top: 3px;
 }
 
+.component-6 {
+  padding: 45px 6.25% 0 6.25%;
+  flex-direction: column;
+  align-items: center;
+}
+.component-6 > h3 {
+  font-size: 27px;
+}
+.component-6 > div:first-of-type {
+  margin-top: 11px;
+  gap: 8px;
+  margin-bottom: 44px;
+}
+.component-6 > div:first-of-type > div {
+  width: 33px;
+  height: 1px;
+  background-color: #d3d3d3;
+  margin-top: 7px;
+}
+.component-6 > img:first-of-type {
+  margin-bottom: 16px;
+}
+.component-6 > p {
+  margin-top: 6px;
+  font-size: 15px;
+  letter-spacing: 0.7px;
+  color: #606060;
+}
+.component-6 > img:nth-of-type(2) {
+  margin-top: 40px;
+  margin-bottom: 23px;
+}
+.component-6 > img:nth-of-type(3) {
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+.component-6 form {
+  margin-top: 41px;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.component-6 form > input {
+  border: 1px solid #d4d4d4;
+  height: 46px;
+  color: #7c7c7c;
+  font-size: 14px;
+  padding-bottom: 3px;
+  padding-left: 9px;
+}
+.component-6 form > input:nth-of-type(4) {
+  height: 141px;
+  padding-bottom: 100px;
+}
+.component-6 form > input:last-of-type {
+  width: 160px;
+  height: 42px;
+  font-size: 13px;
+  margin-top: 2px;
+  margin-bottom: 44px;
+  color: #ffffff;
+  border: none;
+  background-color: #3ab6b2;
+  padding-top: 5px;
+  padding-left: 0;
+  padding-right: 3px;
+}
+.component-6 form > input:last-of-type:hover {
+  cursor: pointer;
+}
+
+.component-7 {
+  background-color: #000000;
+  padding-top: 43px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.component-7 > img {
+  width: 114px;
+}
+.component-7 .footer-icons {
+  flex-wrap: wrap;
+  width: 62%;
+  gap: 9px;
+  margin-top: 41px;
+  justify-content: center;
+  margin-bottom: 41px;
+}
+.component-7 .footer-icons > div {
+  width: 40px;
+  height: 40px;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.component-7 .footer-icons > div:hover {
+  cursor: pointer;
+}
+.component-7 p {
+  font-size: 11px;
+  color: #ffffff;
+  letter-spacing: 0.4px;
+  margin-bottom: 41px;
+}
+
 /*# sourceMappingURL=styles.css.map */
