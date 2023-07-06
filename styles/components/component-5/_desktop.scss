@@ -12,11 +12,69 @@
     }
     > div:nth-of-type(4) {
       display: grid;
+      width: 100%;
       margin-top: 51px;
       grid-template-columns: repeat(5, 19.9%);
       grid-template-rows: 379px 379px;
       gap: 0.125%;
       row-gap: 5px;
+      > div {
+        background-color: $main-black;
+        &:hover > div {
+          display: block;
+          cursor: pointer;
+        }
+        > div {
+          display: none;
+          > div:first-of-type {
+            width: 100%;
+            height: 300px;
+            background-color: $photography-hover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            > div:first-child {
+              margin-left: -23px;
+              margin-right: 10px;
+            }
+            > div {
+              width: 46px;
+              height: 46px;
+              border-radius: 50%;
+              border: 2px solid $main-blue;
+              background-color: $main-blue;
+              margin-top: 60px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              &:hover {
+                background-color: $photography-hover;
+                transition: 0.4s;
+              }
+            }
+          }
+          > div:last-of-type {
+            width: 100%;
+            height: 75px;
+            background-color: $main-black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            > h6 {
+              margin-top: 2px;
+              font-size: 17px;
+              color: $txt-white;
+              margin-left: -11px;
+            }
+            > p {
+              margin-top: 6px;
+              font-size: 13px;
+              color: $main-blue;
+            }
+          }
+        }
+      }
       > div:first-of-type {
         grid-column-start: 1;
         grid-column-end: 3;

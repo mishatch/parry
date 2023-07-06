@@ -1,16 +1,9 @@
-$main-width: 118px;
-$main-height: 70px;
-$inner-width: $main-width - 10px;
-$inner-height: $main-height - 10px;
-$border-width: 1px;
 .component-4 {
   padding: 36px 6.25% 0 6.25%;
-  background-color: $main-black;
   flex-direction: column;
   align-items: center;
   h2 {
     font-size: 27px;
-    color: $txt-white;
     margin-bottom: 9px;
   }
   > div:first-of-type {
@@ -19,7 +12,6 @@ $border-width: 1px;
     > div {
       width: 37px;
       height: 1px;
-      background-color: $speaker-div-color;
       margin-top: 9px;
     }
   }
@@ -33,12 +25,10 @@ $border-width: 1px;
       margin-bottom: 79px;
 
       h3 {
-        color: $main-blue;
         font-size: 19px;
         margin-bottom: 13px;
       }
       p {
-        color: $txt-white;
         font-size: 13px;
         letter-spacing: 0.2px;
         text-align: center;

@@ -1,0 +1,15 @@
+.component-5 {
+  h3 {
+    color: $portfolio;
+  }
+  > div:first-of-type {
+    > div {
+      background-color: $speaker-div-color;
+    }
+  }
+  .photography {
+    > div {
+      background-color: $main-black;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.component-3 {
+  h2 {
+    color: $main-blue;
+    span {
+      color: $main-black;
+    }
+  }
+  > div:nth-of-type(2) {
+    background-color: $main-black;
+  }
+  > div:nth-of-type(3) {
+    background-color: $about-us-line;
+  }
+  > p {
+    color: $paragraph-top-color;
+  }
+  button {
+    color: $txt-white;
+    background-color: $main-blue;
+  }
+}

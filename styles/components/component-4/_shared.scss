@@ -1,0 +1,26 @@
+$main-width: 118px;
+$main-height: 70px;
+$inner-width: $main-width - 10px;
+$inner-height: $main-height - 10px;
+$border-width: 1px;
+.component-4 {
+  background-color: $main-black;
+  h2 {
+    color: $txt-white;
+  }
+  > div:first-of-type {
+    > div {
+      background-color: $speaker-div-color;
+    }
+  }
+  .services {
+    > div {
+      h3 {
+        color: $main-blue;
+      }
+      p {
+        color: $txt-white;
+      }
+    }
+  }
+}

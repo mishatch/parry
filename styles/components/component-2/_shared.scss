@@ -1,0 +1,19 @@
+.component-2 {
+  background-color: $header-bg;
+  h1:first-child {
+    color: $txt-white;
+  }
+  h1:last-of-type {
+    color: $txt-white;
+  }
+  p {
+    color: $txt-white;
+  }
+  div,
+  button {
+    background-color: $main-blue;
+  }
+  button {
+    color: $txt-white;
+  }
+}
