@@ -1,1 +1,96 @@
-
+@media screen and (min-width: $desktop) {
+  #component-3 {
+    padding-top: 115px;
+    padding-left: 19.42%;
+    padding-right: 19.42%;
+    height: 816px;
+    > h2 {
+      font-size: 31px;
+    }
+    > div:nth-of-type(2),
+    > h5,
+    > div:nth-of-type(3),
+    > p,
+    .check,
+    > button {
+      display: none;
+    }
+    .desktop-aboutus {
+      display: flex;
+      width: 100%;
+      margin-top: 99px;
+      > .aboutus-txt {
+        margin-left: 90px;
+        margin-top: -5px;
+        > h2 {
+          font-size: 31px;
+          color: $portfolio;
+          letter-spacing: -0.6px;
+          margin-bottom: 24px;
+        }
+        > p {
+          font-size: 14px;
+          color: $desktop-aboutus;
+          line-height: 26px;
+        }
+        .features {
+          margin-top: 48px;
+          margin-top: 48px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          width: 621px;
+          row-gap: 51px;
+          > div {
+            width: 50%;
+            > div:first-of-type {
+              flex-shrink: 0;
+              width: 63px;
+              height: 63px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: $aboutus-icon;
+              border-radius: 50%;
+            }
+            > div:last-of-type {
+              margin-left: 26px;
+            }
+            h6 {
+              font-size: 18px;
+              color: $portfolio;
+            }
+            p {
+              font-size: 13px;
+              color: $desktop-aboutus;
+              margin-top: 9px;
+              margin-left: 2px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: $desktop) and (max-width: 1600px) {
+  #component-3 {
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 1010px;
+    .desktop-aboutus {
+      > div {
+        img {
+          margin-top: 100px;
+        }
+      }
+    }
+    #features {
+      width: 100%;
+      margin-bottom: 50px;
+      > div {
+        width: 100%;
+      }
+    }
+  }
+}
