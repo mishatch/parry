@@ -18,6 +18,9 @@
       grid-template-rows: 229px 229px;
       gap: 21px;
       margin-top: 21px;
+      > div {
+        background-color: $main-black;
+      }
     }
   }
 }

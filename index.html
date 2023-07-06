@@ -32,24 +32,40 @@
     <title>Parry</title>
   </head>
   <body>
-    <nav class="component-1 flex">
+    <nav class="component-1 flex" id="component-1">
       <div><img src="./assets/Parry-logo.png" alt="Logo" class="logo" /></div>
-      <div class="nav-links"></div>
+      <div class="nav-links none">
+        <a href="#"><span class="open-sans-regular">HOME</span></a>
+        <a href="#"><span class="open-sans-regular">ABOUT</span></a>
+        <a href="#"><span class="open-sans-regular">SERVICES</span></a>
+        <a href="#"><span class="open-sans-regular">PORTFOLIO</span></a>
+        <a href="#"><span class="open-sans-regular">TESTIMONIALS</span></a>
+        <a href="#"><span class="open-sans-regular">TEAM</span></a>
+        <a href="#"><span class="open-sans-regular">BLOG</span></a>
+        <a href="#"><span class="open-sans-regular">CONTACT</span></a>
+      </div>
       <div>
         <img src="./assets/menu-burger.png" alt="Menu Icon" class="menu" />
+        <img src="./assets/menu-tablet.png" alt="Menu Icon" />
       </div>
     </nav>
-    <header class="component-2 flex">
+    <header class="component-2 flex" id="component-2">
       <h1 class="raleway-extralight">Walk With Parry</h1>
       <h1 class="montserrat-bold">You Will Love It</h1>
       <p class="raleway-light">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
       </p>
+      <p class="raleway-light">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget
+        faucibus
+      </p>
       <div>
         <button class="raleway-bold">READ MORE</button>
       </div>
+      <img src="./assets/Arrow Left.png" alt="Arrow" class="none" />
+      <img src="./assets/Arrow Right.png" alt="Arrow" class="none" />
     </header>
-    <section class="component-3 flex">
+    <section class="component-3 flex" id="component-3">
       <h2 class="raleway-semibold"><span>WHO</span> WE ARE</h2>
       <div class="flex">
         <div></div>
@@ -63,11 +79,21 @@
         Lorem ipsum dolor sit amet, consectetur elit adipiscing elit.
         Pellentesque semper vel leo a consequat. In hendrerit.
       </p>
+      <p class="none open-sans-regular">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        semper vel leo a conseq uat. In hendrerit cons ectetur vestibulum. Ut
+        pulvinar, urna non sodales lobortis, est eros iaculelit, a venenatis
+        purus nibh rutrum diam Aene an in purus bibendum, hendrerit dolor quis.
+      </p>
       <div class="check flex">
         <img src="./assets/check-blue.png" alt="Check" />
         <p class="open-sans-regular">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque
           semper.
+        </p>
+        <p class="open-sans-regular none">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          semper vel leo a consequat. In hendrerit consectetur vestibulum.
         </p>
       </div>
       <div class="check flex">
@@ -75,16 +101,24 @@
         <p class="open-sans-regular">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
+        <p class="open-sans-regular none">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          semper vel leo a consequat.
+        </p>
       </div>
       <div class="check flex">
         <img src="./assets/check-blue.png" alt="Check" />
         <p class="open-sans-regular">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque.
         </p>
+        <p class="open-sans-regular none">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          semper vel leo a consequat. In hendrerit.
+        </p>
       </div>
       <button class="raleway-bold">READ MORE</button>
     </section>
-    <section class="component-4 flex">
+    <section class="component-4 flex" id="component-4">
       <h2 class="raleway-semibold">SERVICES</h2>
       <div class="flex">
         <div></div>
@@ -133,7 +167,7 @@
         </div>
       </div>
     </section>
-    <section class="component-5 flex">
+    <section class="component-5 flex" id="component-5">
       <h3 class="raleway-semibold">PORTFOLIO</h3>
       <div class="flex">
         <div></div>
@@ -218,23 +252,39 @@
           </div>
         </div>
       </div>
+      <div class="none">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </section>
-    <section class="component-6 flex">
+    <section class="component-6 flex" id="component-6">
       <h3 class="raleway-semibold">CONTACT</h3>
       <div class="flex">
         <div></div>
         <img src="./assets/Phone.png" alt="Portfolio" />
         <div></div>
       </div>
-      <img src="./assets/Location.png" alt="Location" />
-      <p class="raleway-regular">129 LV High Street,</p>
-      <p class="raleway-regular">United States</p>
-      <img src="./assets/Mail.png" alt="Mail" />
-      <p class="raleway-regular">+01 123-4567-8910</p>
-      <p class="raleway-regular">youremail.co</p>
-      <img src="./assets/Support.png" alt="Support" />
-      <p class="raleway-regular">Take Our support</p>
-      <p class="raleway-regular">Support@xy.co</p>
+      <div>
+        <div class="flex">
+          <img src="./assets/Location.png" alt="Location" />
+          <p class="raleway-regular">129 LV High Street,</p>
+          <p class="raleway-regular">United States</p>
+        </div>
+        <div class="flex">
+          <img src="./assets/Mail.png" alt="Mail" />
+          <p class="raleway-regular">+01 123-4567-8910</p>
+          <p class="raleway-regular">youremail.co</p>
+        </div>
+        <div class="flex">
+          <img src="./assets/Support.png" alt="Support" />
+          <p class="raleway-regular">Take Our support</p>
+          <p class="raleway-regular">Support@xy.co</p>
+        </div>
+      </div>
       <form class="flex">
         <input
           type="text"
@@ -258,7 +308,7 @@
         <input type="submit" value="SEND MESSAGE" class="raleway-bold" />
       </form>
     </section>
-    <footer class="component-7 flex">
+    <footer class="component-7 flex" id="component-7">
       <img src="./assets/Parry-logo.png" alt="Parry Logo" />
       <div class="footer-icons flex">
         <div><img src="./assets/footer-mail.png" alt="Mail" /></div>

@@ -1,0 +1,40 @@
+@media screen and (min-width: $desktop) {
+  #component-1 {
+    height: 100px;
+    padding: 27px 19.46% 0 19.46%;
+    justify-content: space-between;
+    > div:nth-of-type(3) {
+      > img:last-of-type {
+        display: none;
+      }
+    }
+    > div:nth-of-type(2) {
+      display: flex;
+    }
+    .nav-links {
+      order: 2;
+      width: 744px;
+      gap: 32px;
+      padding-top: 11px;
+      padding-top: 12px;
+      padding-left: 2px;
+      gap: 40px;
+      > a {
+        text-decoration: none;
+        color: $txt-white;
+        &:hover {
+          cursor: pointer;
+        }
+        > span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: $desktop) and (max-width: 1600px) {
+  #component-1 {
+    height: 100px;
+    padding: 27px 5.46% 0 5.46%;
+  }
+}

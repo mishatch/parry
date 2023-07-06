@@ -1,0 +1,38 @@
+@media screen and (min-width: $desktop) {
+  #component-2 {
+    height: 760px;
+    position: relative;
+    padding-top: 236px;
+    > h1:first-of-type {
+      font-size: 62px;
+      margin-left: 20px;
+    }
+    > h1:last-of-type {
+      font-size: 74px;
+      margin-left: 17px;
+    }
+    > p {
+      font-size: 20px;
+      margin-top: 1px;
+      margin-left: 17px;
+      letter-spacing: -0.1px;
+    }
+    img {
+      display: block;
+    }
+    > img:first-of-type {
+      position: absolute;
+      left: 37px;
+      top: 302px;
+    }
+    > img:last-of-type {
+      position: absolute;
+      right: 37px;
+      top: 302px;
+    }
+    > div:last-of-type {
+      margin-left: 21px;
+      margin-top: 41px;
+    }
+  }
+}

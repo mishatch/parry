@@ -57,6 +57,44 @@
   font-weight: 400;
 }
 
+@media screen and (min-width: 1024px) {
+  #component-1 {
+    height: 100px;
+    padding: 27px 19.46% 0 19.46%;
+    justify-content: space-between;
+  }
+  #component-1 > div:nth-of-type(3) > img:last-of-type {
+    display: none;
+  }
+  #component-1 > div:nth-of-type(2) {
+    display: flex;
+  }
+  #component-1 .nav-links {
+    order: 2;
+    width: 744px;
+    gap: 32px;
+    padding-top: 11px;
+    padding-top: 12px;
+    padding-left: 2px;
+    gap: 40px;
+  }
+  #component-1 .nav-links > a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  #component-1 .nav-links > a:hover {
+    cursor: pointer;
+  }
+  #component-1 .nav-links > a > span {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+  #component-1 {
+    height: 100px;
+    padding: 27px 5.46% 0 5.46%;
+  }
+}
 .component-1 {
   width: 100%;
   height: 67px;
@@ -100,6 +138,44 @@
   .component-1 > div:nth-of-type(3) > img:nth-of-type(2) {
     display: block;
     margin-top: 5px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #component-2 {
+    height: 760px;
+    position: relative;
+    padding-top: 236px;
+  }
+  #component-2 > h1:first-of-type {
+    font-size: 62px;
+    margin-left: 20px;
+  }
+  #component-2 > h1:last-of-type {
+    font-size: 74px;
+    margin-left: 17px;
+  }
+  #component-2 > p {
+    font-size: 20px;
+    margin-top: 1px;
+    margin-left: 17px;
+    letter-spacing: -0.1px;
+  }
+  #component-2 img {
+    display: block;
+  }
+  #component-2 > img:first-of-type {
+    position: absolute;
+    left: 37px;
+    top: 302px;
+  }
+  #component-2 > img:last-of-type {
+    position: absolute;
+    right: 37px;
+    top: 302px;
+  }
+  #component-2 > div:last-of-type {
+    margin-left: 21px;
+    margin-top: 41px;
   }
 }
 .component-2 {
@@ -561,6 +637,9 @@
     gap: 21px;
     margin-top: 21px;
   }
+  .component-5 > div:last-of-type > div {
+    background-color: #000000;
+  }
 }
 .component-6 {
   padding: 45px 6.25% 0 6.25%;
@@ -761,6 +840,7 @@
   }
   .component-7 > p {
     margin-bottom: 59px;
+    margin-top: 8px;
   }
 }
 
