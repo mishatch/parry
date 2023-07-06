@@ -351,7 +351,7 @@
     padding-right: 5%;
     height: 1010px;
   }
-  #component-3 .desktop-aboutus > div img {
+  #component-3 .desktop-aboutus > div > img {
     margin-top: 100px;
   }
   #component-3 #features {
@@ -489,6 +489,43 @@
   }
   .component-3 button {
     margin-bottom: 76px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #component-4 {
+    padding-top: 138px;
+    padding-left: 15.7%;
+    padding-right: 15.7%;
+    height: 784px;
+  }
+  #component-4 > h2 {
+    font-size: 31px;
+    margin-bottom: 7px;
+  }
+  #component-4 > div:first-of-type {
+    margin-bottom: 180px;
+  }
+  #component-4 .services {
+    flex-direction: row;
+  }
+  #component-4 .services > div:last-of-type {
+    margin-top: -33px;
+  }
+  #component-4 .services > div:last-of-type > div:first-of-type {
+    margin-bottom: 71px;
+  }
+  #component-4 .services > div > p {
+    width: 67%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+  #component-4 {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 .component-4 {

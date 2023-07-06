@@ -1,0 +1,39 @@
+@media screen and (min-width: $desktop) {
+  #component-4 {
+    padding-top: 138px;
+    padding-left: 15.7%;
+    padding-right: 15.7%;
+    height: 784px;
+    > h2 {
+      font-size: 31px;
+      margin-bottom: 7px;
+    }
+    > div:first-of-type {
+      margin-bottom: 180px;
+    }
+    .services {
+      flex-direction: row;
+      > div:last-of-type {
+        margin-top: -33px;
+        > div:first-of-type {
+          margin-bottom: 71px;
+        }
+      }
+      > div {
+        > p {
+          width: 67%;
+          text-align: center;
+          font-size: 14px;
+          line-height: 22px;
+          margin-bottom: 32px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: $desktop) and (max-width: 1600px) {
+  #component-4 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
